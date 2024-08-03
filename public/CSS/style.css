@@ -1,0 +1,37 @@
+body{
+    background-color: skyblue;
+}
+.container{
+    margin: 5% 0;
+}
+.container > .searchInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container > .searchInput input{
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.container .card_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-flow: wrap;
+
+}
+.container .card_Container .card{
+    background-color: #fff;
+    /* border: 2px solid whitesmoke; */
+    margin: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.container .card_Container .card img{
+    height: 250px;
+}

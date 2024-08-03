@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "./public/PICS/mango.webp",
+        "title": "Mango",
+        "price": 80
+    },
+    {
+        "id": 2,
+        "image": "./public/PICS/apple.jpg",
+        "title": "Apple",
+        "price": 350
+    },
+    {
+        "id": 3,
+        "image": "./public/PICS/grapes.webp",
+        "title": "Grapes",
+        "price": 150
+    },
+    {
+        "id": 4,
+        "image": "./public/PICS/watermelon.webp",
+        "title": "Watermelon",
+        "price": 300
+    },
+    {
+        "id": 5,
+        "image": "./public/PICS/banana.webp",
+        "title": "Banana",
+        "price": 200
+    },
+    {
+        "id": 6,
+        "image": "./public/PICS/dragon.webp",
+        "title": "Dragon Fruit",
+        "price": 500
+    }
+]
