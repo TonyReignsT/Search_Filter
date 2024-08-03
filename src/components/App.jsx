@@ -1,5 +1,7 @@
 import React , {useState} from 'react';
 import data from './ProductData.json';
+import Footer from './Footer'
+import Header from './Header'
 
 export default function App(){
     const [searchTerm, setSearchTerm] = useState("");
@@ -7,6 +9,7 @@ export default function App(){
     const handleChange = (event) => {setSearchTerm(event.target.value)}
     return(
         <>
+            <Header />
             <div className='container'>
                 <div className='searchInput'>
                     <input 
@@ -36,6 +39,7 @@ export default function App(){
                     }
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
