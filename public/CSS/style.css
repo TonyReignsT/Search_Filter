@@ -69,7 +69,7 @@ footer{
     padding: 1rem;
     color: #ffd700;
 }
-@media screen and (min-width: 3840px){
+/* @media screen and (min-width: 576px){
     .header{
         width: min(100%, 400px);
     }
@@ -86,4 +86,4 @@ footer{
     footer{
         width: min(100%, 400px);
     }
-}
+} */
